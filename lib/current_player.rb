@@ -1,5 +1,5 @@
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-counter = 3
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+counter = 0
 
 def turn_count(board)
     while counter != " " || ""
