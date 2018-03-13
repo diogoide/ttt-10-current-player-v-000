@@ -1,5 +1,5 @@
 counter = 0
-def turn_count(board)
+def turn_count
     input = gets.chomp
     board.each do |counter|
     puts "This is turn #{counter}"
