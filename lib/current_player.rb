@@ -1,6 +1,8 @@
-counter = 0
+board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+counter = 3
+
 def turn_count(board)
-    while counter == "X" || "O"
+    while counter != " " || ""
     board.each do |counter|
     puts "Number of turns is #{counter}"
     counter += 1
