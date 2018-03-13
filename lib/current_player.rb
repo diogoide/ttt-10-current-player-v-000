@@ -1,8 +1,9 @@
 counter = 0
-def turn_count
-    input = gets.chomp
+def turn_count(board)
+    while counter == "X" || "O"
     board.each do |counter|
-    puts "This is turn #{counter}"
+    puts "Number of turns is #{counter}"
     counter += 1
+end
 end
 end
